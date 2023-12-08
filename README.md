@@ -5,6 +5,8 @@ It is an alternative to the [mingw-bundledlls](https://github.com/mpreisler/ming
 
 Instead, this script works off a whitelist by filtering by DLLs that are found in the current MSYS2 environment (e.g. `/ucrt64/bin/`), which is a lot less error prone and will copy over any DLLs not provided by Windows. It's also a simple Bash script instead of written in Python and does not require having Python installed in the environment to run.
 
+It is currently being used for [Principia](https://principia-web.se)'s Windows builds.
+
 ## Usage
 Clone the repository or download the `bundledlls` script. If you trust me enough, you can download it directly using cURL like this:
 

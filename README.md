@@ -16,10 +16,10 @@ curl https://raw.githubusercontent.com/rollerozxa/msys2-bundledlls/master/bundle
 
 The first argument is the executable and the second argument is the directory in which the DLLs will be copied into. Usually this would be the same directory as the executable, but depending on your distribution pipeline you might want put them somewhere else for packaging.
 
-For example, if you are building [Minetest under MSYS2](https://wiki.voxelmanip.se/Compiling_on_Windows_using_MSYS2), you would want to run the following:
+For example, if you are building [Luanti in MSYS2](https://dev.luanti.org/compiling-on-windows-using-msys2/), you would want to run the following:
 
 ```bash
-./bundledlls ../bin/minetest.exe ../bin/
+./bundledlls ../bin/luanti.exe ../bin/
 ```
 
 ## License
